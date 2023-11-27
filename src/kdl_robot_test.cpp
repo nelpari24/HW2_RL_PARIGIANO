@@ -114,45 +114,45 @@ int main(int argc, char **argv)
     {
         ROS_INFO_STREAM_ONCE("Robot/object state not available yet.");
         
-if(flag1){
-    std::cout<<"                                                                                            "<<std::endl;
-    std::cout<<"\033[94m                                   ______                                 \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m                                  |      |                                \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m                                 | (\033[1;94m\033[1;31m-\033[1;94m\033[1;94m)(\033[1;94m\033[1;31m-\033[1;94m\033[1;94m) |  ____________________________________________________\033[1;94m" << std::endl;
-    std::cout<<"\033[94m                                 |   _    | |                                                   / \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m                                 |  |_|   | | \033[38;2;255;165;0mWhat trajectory do you want to generate? Select:\033[1;94m \033[1;94m/ \033[1;94m\033[1;94m\033[1;94m" << std::endl;
-    std::cout<<"\033[94m                                  |______|  |_________________________________________________/   \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m                       _____________| |____________                       \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m    __________________|____________________________|___________________   \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl;
-    std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  1 -> Linear trajectory with trapezoidal velocity profile         \033[1;94m|\033[1;94m" << std::endl;
-    std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl;
-    std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl;
-    std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  2 -> Linear trajectory with cubic polynomial velocity profile    \033[1;94m|\033[1;94m" << std::endl;                                        
-    std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl; 
-    std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl; 
-    std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  3 -> Circular trajectory with trapezoidal velocity profile       \033[1;94m|\033[1;94m" << std::endl;                                   
-    std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl; 
-    std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl; 
-    std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  4 -> Circular trajectory with cubic polynomial velocity profile  \033[1;94m|\033[1;94m" << std::endl;                                       
-    std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl; 
-    std::cout<<"\033[94m                  |____________________________________|                  \033[1;94m"<<std::endl; 
-    std::cout<<"\033[94m                      ||                          ||                      \033[1;94m"<<std::endl; 
-    std::cout<<"\033[94m                      ||                          ||                      \033[1;94m"<<std::endl; 
-    std::cout<<"\033[94m" << "....................._||_........................_||_....................."<< "\033[1;94m" << std::endl;
-    std::cout<<"\033[38;2;255;165;0m\nChoice:\t\033[1;94m";
-    std::cin>> choice;
-}
+        if(flag1){
+             std::cout<<"                                                                                           "<<std::endl;
+            std::cout<<"\033[94m                                   ______                                 \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m                                  |      |                                \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m                                 | (\033[1;94m\033[1;31m-\033[1;94m\033[1;94m)(\033[1;94m\033[1;31m-\033[1;94m\033[1;94m) |  ____________________________________________________\033[1;94m" << std::endl;
+            std::cout<<"\033[94m                                 |   _    | |                                                   / \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m                                 |  |_|   | | \033[38;2;255;165;0mWhat trajectory do you want to generate? Select:\033[1;94m \033[1;94m/ \033[1;94m\033[1;94m\033[1;94m" << std::endl;
+            std::cout<<"\033[94m                                  |______|  |_________________________________________________/   \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m                       _____________| |____________                       \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m    __________________|____________________________|___________________   \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl;
+            std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  1 -> Linear trajectory with trapezoidal velocity profile         \033[1;94m|\033[1;94m" << std::endl;
+            std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl;
+            std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl;
+            std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  2 -> Linear trajectory with cubic polynomial velocity profile    \033[1;94m|\033[1;94m" << std::endl;                                        
+            std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl; 
+            std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl; 
+            std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  3 -> Circular trajectory with trapezoidal velocity profile       \033[1;94m|\033[1;94m" << std::endl;                                   
+            std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl; 
+            std::cout<<"\033[94m   |                                                                   |  \033[1;94m"<<std::endl; 
+            std::cout<<"\033[38;2;255;165;0m   \033[1;94m|\033[38;2;255;165;0m  4 -> Circular trajectory with cubic polynomial velocity profile  \033[1;94m|\033[1;94m" << std::endl;                                       
+            std::cout<<"\033[94m   |___________________________________________________________________|  \033[1;94m"<<std::endl; 
+            std::cout<<"\033[94m                  |____________________________________|                  \033[1;94m"<<std::endl; 
+            std::cout<<"\033[94m                      ||                          ||                      \033[1;94m"<<std::endl; 
+            std::cout<<"\033[94m                      ||                          ||                      \033[1;94m"<<std::endl; 
+            std::cout<<"\033[94m" << "....................._||_........................_||_....................." << "\033[1;94m" << std::endl;
+            std::cout<<"\033[38;2;255;165;0m\nChoice:\t\033[1;94m";
+            std::cin>> choice;
+        }
 
         if(choice==1 || choice==2){
             if(flag2){
-                std::cout<<"\nSet the desidered pose.\nMaximum x: \t 0.65 \t\t Minimum x: \t 0.1";
+                std::cout<<"\nSet the desidered pose.\nMaximum x: \t± 0.65 \t\t Minimum x: \t± 0.1";
                 std::cout<<"\nx:\t";
                 std::cin>> x;
-                std::cout<<"Maximum y: \t 0.5 \t\t Minimum y: \t 0.0";
+                std::cout<<"Maximum y: \t± 0.5 \t\t Minimum y: \t  0.0";
                 std::cout<<"\ny:\t";
                 std::cin>> y;
-                std::cout<<"Maximum z: \t 0.7 \t\t Minimum z: \t 0.35";
+                std::cout<<"Maximum z: \t  0.7 \t\t Minimum z: \t  0.35";
                 std::cout<<"\nz:\t";
                 std::cin>> z;
                 flag2 = false;
@@ -161,7 +161,7 @@ if(flag1){
 
         if(choice==3 || choice==4){
             if(flag3){
-                std::cout<<"\nSet the desidered radius.\nMaximum r: \t 0.22 \t\t Minimum r: \t 0.001";
+                std::cout<<"\nSet the desidered radius.\nMaximum r: \t  0.22 \t\t Minimum r: \t  0.001";
                 std::cout<<"\nr:\t";
                 std::cin>> r;
                 flag3 = false;
