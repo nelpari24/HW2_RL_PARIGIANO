@@ -144,8 +144,8 @@ int main(int argc, char **argv)
             std::cin>> choice;
         }
 
-        if(choice==1 || choice==2){
-            if(flag2){
+        if(flag2){
+            if(choice==1 || choice==2){
                 std::cout<<"\nSet the desidered pose.\nMaximum x: \t± 0.65 \t\t Minimum x: \t± 0.1";
                 std::cout<<"\nx:\t";
                 std::cin>> x;
@@ -159,8 +159,8 @@ int main(int argc, char **argv)
             }
         }
 
-        if(choice==3 || choice==4){
-            if(flag3){
+        if(flag3){
+            if(choice==3 || choice==4){
                 std::cout<<"\nSet the desidered radius.\nMaximum r: \t  0.22 \t\t Minimum r: \t  0.001";
                 std::cout<<"\nr:\t";
                 std::cin>> r;
